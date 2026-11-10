@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mrarbaz88-50.github.io/arbaz-portfolio/sitemap.xml
