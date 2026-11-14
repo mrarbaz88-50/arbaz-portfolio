@@ -2033,3 +2033,112 @@ h4 {
         font-size: 15px;
     }
 }
+/* PREMIUM CONTACT OUTER BOX */
+
+.contact {
+    max-width: 1150px;
+    width: 90%;
+    margin: 60px auto;
+    padding: 65px 45px;
+
+    background: linear-gradient(
+        145deg,
+        rgba(232, 160, 168, 0.10),
+        rgba(22, 10, 18, 0.97)
+    );
+
+    border: 1px solid rgba(232, 160, 168, 0.35);
+    border-radius: 28px;
+
+    box-shadow:
+        0 20px 55px rgba(0, 0, 0, 0.30),
+        0 0 25px rgba(232, 160, 168, 0.06);
+
+    box-sizing: border-box;
+}
+
+/* MOBILE OUTER BOX */
+
+@media (max-width: 600px) {
+    .contact {
+        width: 94%;
+        padding: 40px 18px;
+        margin: 35px auto;
+        border-radius: 20px;
+    }
+}
+/* CONTACT SECTION OUTER BOX FIX */
+section.contact {
+    display: block !important;
+    width: 90% !important;
+    max-width: 1150px !important;
+    margin: 60px auto !important;
+    padding: 65px 45px !important;
+
+    background: linear-gradient(
+        145deg,
+        rgba(232, 160, 168, 0.12),
+        rgba(22, 10, 18, 0.98)
+    ) !important;
+
+    border: 1px solid rgba(232, 160, 168, 0.4) !important;
+    border-radius: 28px !important;
+
+    box-shadow: 0 20px 55px rgba(0, 0, 0, 0.3) !important;
+    box-sizing: border-box !important;
+}
+
+@media (max-width: 600px) {
+    section.contact {
+        width: 94% !important;
+        padding: 40px 18px !important;
+        margin: 35px auto !important;
+        border-radius: 20px !important;
+    }
+}
+/* CONTACT - COMPLETE OUTER BOX */
+
+section.contact {
+    display: flow-root !important;
+    position: relative !important;
+
+    width: 90% !important;
+    max-width: 1150px !important;
+
+    margin: 60px auto !important;
+    padding: 60px 40px !important;
+
+    background: #1c0d16 !important;
+
+    border: 1px solid #E8A0A8 !important;
+    border-radius: 25px !important;
+
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35) !important;
+    box-sizing: border-box !important;
+}
+
+section.contact > * {
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    section.contact {
+        width: 94% !important;
+        padding: 35px 16px !important;
+        margin: 35px auto !important;
+    }
+}
+/* CONTACT OUTER BOX - DARK PREMIUM LOOK */
+
+section.contact {
+    background: linear-gradient(
+        145deg,
+        rgba(30, 12, 22, 0.98),
+        rgba(18, 8, 15, 0.99)
+    ) !important;
+
+    border: 1px solid rgba(232, 160, 168, 0.25) !important;
+
+    box-shadow:
+        0 15px 45px rgba(0, 0, 0, 0.35) !important;
+}
